@@ -6,9 +6,9 @@ Run Claude Code, Codex or opencode in a dozen [kitty](https://sw.kovidgoyal.net/
 
 | Bar | Meaning |
 |---|---|
-| ⛔ 2 (red) | agents blocked on a permission prompt |
-| ✅ 1 (green) | agents idle, waiting for your next prompt |
-| ⏳ 3 (yellow) | agents working |
+| 🔴 2 (red) | agents blocked on a permission prompt |
+| 🟢 1 (green) | agents idle, waiting for your next prompt |
+| 🟡 3 (yellow) | agents working |
 | ● (grey) | no agents |
 
 Click an entry to jump to that window.

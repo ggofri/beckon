@@ -21,9 +21,9 @@ exec beckon swiftbar "$@"
 `
 
 var groups = []struct{ state, title, color, icon string }{
-	{"blocked", "Waiting for your input", "#f38ba8", "⛔"},
-	{"idle", "Idle", "#a6e3a1", "✅"},
-	{"working", "Working", "#f9e2af", "⏳"},
+	{"blocked", "Waiting for your input", "#f38ba8", "🔴"},
+	{"idle", "Idle", "#a6e3a1", "🟢"},
+	{"working", "Working", "#f9e2af", "🟡"},
 }
 
 // renderSwiftbar writes SwiftBar plugin output: the bar shows the count of the

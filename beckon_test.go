@@ -44,7 +44,7 @@ func TestSwiftbar(t *testing.T) {
 	var b bytes.Buffer
 	renderSwiftbar(&b, fixture(t), "/bin/beckon")
 	out := b.String()
-	for _, s := range []string{"⛔ 1| color=#f38ba8", "Waiting for your input (1)", "Idle (1)", "Working (1)", "param1=focus param2=/tmp/kitty-1 param3=11"} {
+	for _, s := range []string{"🔴 1| color=#f38ba8", "Waiting for your input (1)", "Idle (1)", "Working (1)", "param1=focus param2=/tmp/kitty-1 param3=11"} {
 		if !strings.Contains(out, s) {
 			t.Errorf("missing %q in:\n%s", s, out)
 		}
