@@ -1,0 +1,7 @@
+[{"id":1,"tabs":[
+ {"title":"a-blocked","windows":[{"id":11,"session_name":"/x/proj.kitty-session","user_vars":{"agent":"blocked"},"foreground_processes":[{"cmdline":["claude"]}]}]},
+ {"title":"b-idle","windows":[{"id":12,"session_name":null,"user_vars":{"agent":"idle"},"foreground_processes":[{"cmdline":["/usr/bin/node","/opt/codex/bin"]}]}]},
+ {"title":"c-working","windows":[{"id":13,"session_name":"","user_vars":{"agent":"working"},"foreground_processes":[{"cmdline":["claude","--resume"]}]}]},
+ {"title":"d-stale","windows":[{"id":14,"user_vars":{"agent":"working"},"foreground_processes":[{"cmdline":["-zsh"]}]}]},
+ {"title":"e-none","windows":[{"id":15,"user_vars":{},"foreground_processes":[{"cmdline":["claude"]}]}]}
+]}]
